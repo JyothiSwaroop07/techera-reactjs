@@ -2,11 +2,6 @@ import {withRouter} from 'react-router-dom'
 
 import './index.css'
 
-const Navbar = props => {
-  const navigate = () => {
-    const {history} = props
-    history.replace('/')
-  }
 
   return (
     <nav className="nav-container">
